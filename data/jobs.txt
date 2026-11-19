@@ -1,0 +1,7 @@
+# CampusCompute sample job set (repeatable test input)
+# id  arrival  burst  priority      (priority: smaller number = higher priority)
+1     0        8      3
+2     1        4      1
+3     2        9      4
+4     3        5      2
+5     4        2      2             # same priority as job 4 -> exercises the tie-break rule

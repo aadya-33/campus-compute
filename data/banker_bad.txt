@@ -1,0 +1,7 @@
+# Deliberately invalid state: Allocation exceeds Maximum for P0 (resource A)
+2 2
+1 1
+3 3
+2 2
+4 0
+1 1

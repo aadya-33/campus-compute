@@ -1,0 +1,7 @@
+# Deliberately malformed job file used to demonstrate input validation (FR1, FR8)
+# id  arrival  burst  priority
+1     0        8      3
+2     1        -4     1      # negative burst
+3     2        nine   4      # not a number
+1     3        5      2      # duplicate job id
+5     4        2             # missing priority field
